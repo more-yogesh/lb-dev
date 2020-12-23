@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn {
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+            border-radius: 10px 0px 10px 0px;
+            font-size: 16px;
+        }
+
+        .btn-danger {
+            background-color: red;
+            border: 1px solid red;
+            /* display: none; */
+            visibility: hidden;
+        }
+
+        .btn-warning {
+            background-color: goldenrod;
+            border: 1px solid goldenrod;
+        }
+
+        .btn-success {
+            background-color: greenyellow;
+            border: 1px solid greenyellow;
+        }
+
+        .btn-disabled {
+            background-color: blue;
+            border: blueviolet;
+            /* opacity: 0.5; */
+        }
+
+        .btn-primary {
+            background-color: gray;
+            border: 1px solid black;
+        }
+
+        .navigation {
+            width: 100%;
+            background-color: black;
+            height: 200px;
+            opacity: 0.5;
+        }
+
+        .content {
+            width: 80%;
+            background-color: red;
+            height: 200px;
+            margin-top: -100px;
+            z-index: -1;
+            position: relative;
+        }
+
+        /* display
+        
+
+         */
+    </style>
+</head>
+
+<body>
+    <div class="navigation">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consequuntur ullam nisi quam exercitationem
+        eligendi! Harum deleniti, facilis aliquam earum saepe sapiente vitae aperiam nisi accusamus corrupti alias ab
+        ex.
+    </div>
+    <div class="content">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam fuga odio molestias ea porro ab, nihil beatae
+        ipsam fugit molestiae quasi doloribus atque optio soluta laborum repellendus voluptatibus voluptas sunt!
+    </div>
+    <input type="button" class="btn btn-success" value="SUCCESS BUTTON">
+    <input type="button" class="btn btn-danger" value="DANGER BUTTON">
+    <input type="button" class="btn btn-warning" value="WARNING BUTTON">
+    <input type="button" class="btn btn-primary" value="PRIMARY BUTTON">
+    <input type="button" class="btn btn-disabled" value="DISABLED BUTTON">
+
+</body>
+
+</html>
