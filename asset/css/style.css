@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+.main-class {
+    font-family: 'Poppins', sans-serif;
+    /* transition: 1s; */
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    font-size: 0px;
+    transition: 2s;
+    border-radius: 200px;
+    /* background-image: url('../../asset/img/bg.png'); */
+}
+
+/* psuedo */
+
+.main-class:hover {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid black;
+    width: 100%;
+    transition: 2s;
+    background: blue;
+    border-radius: 0px;
+    background-image: url('../../asset/img/bg.png');
+    font-size: 28px;
+    color: black;
+}
