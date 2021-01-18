@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: red;
+    width: 100%;
+    margin: 10px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.navigation {
+    width: 70%;
+    float: right;
+}
+
+.navigation ul {
+    float: right;
+}
+
+.navigation ul li {
+    display: inline;
+    font-size: 30px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    clear: both;
+}
+
+.footer {
+    clear: both;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    height: 60px;
+    padding: 10px;
+    /* bottom: 0; */
+    /* position: absolute; */
+    width: 100%;
+}
+
+form {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.container h1{
+    text-align: center;
+    padding-top:30px;
+}
+.form-group {
+    /* background-color: gray; */
+    height: 100px;
+}
+
+.form-group label {
+    font-size: 22px;
+    clear: both;
+    margin:10px 0px 10px 0px;
+    width: 100%;
+}
+
+.form-group .form-control {
+    clear: both;
+    width: 100%;
+    margin:10px 0px 10px 0px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    border:1px solid black;
+}
+.container{
+    background-color: gray;
+    /* width: 60%; */
+}
