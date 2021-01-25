@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+        body {
+            font-family: 'Yusei Magic', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            /* background: red; */
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .logo {
+            flex: 1;
+            text-align: center;
+            line-height: 1.2;
+            font-size: 30px;
+            border:2px solid black;
+            /* background: chartreuse; */
+        }
+        .logo:hover{
+            background: black;
+            color: white;
+            border:2px solid black;
+        }
+
+        .nav {
+            flex: 2;
+            /* background: chocolate; */
+
+        }
+
+        .nav ul {
+            display: flex;
+            flex-direction: row;
+        }
+
+        ul li {
+            padding: 15px;
+            background-color: gray;
+            display: inline;
+            flex: 1;
+            margin: 10px;
+            text-align: center;
+            font-size: 18px;
+            border: 1px solid rgba(0, 0, 255, 0);
+        }
+
+        ul li:hover {
+            background-color: black;
+            color: white;
+            transition: 1s;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            Life's <br />
+            Good
+        </div>
+        <div class="nav">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Login</li>
+                <li>Register</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

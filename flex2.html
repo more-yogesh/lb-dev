@@ -7,35 +7,36 @@
     <title>Document</title>
     <style>
         .container {
-            display: flex;
             border: 10px solid black;
-            height: 400px;
+            height: 500px;
+            display: flex;
             flex-direction: row;
+            align-self: center;
             flex-wrap: wrap;
             align-items: center;
             /* justify-content: space-between; */
-            justify-content: space-around;
-            /* padding: 10px; */
+            /* justify-content: space-around; */
+            justify-content: space-evenly;
         }
 
         .item {
             padding: 15px;
+            /* flex: 1; */
         }
 
         .item-1 {
             background-color: violet;
-            /* flex: 3; */
-            align-items: center;
-            /* align-items: flex-end; */
-            /* justify-content: flex-end; */
+            /* align-self: flex-start; */
         }
 
         .item-2 {
             background-color: turquoise;
+            /* align-self: flex-end; */
         }
 
         .item-3 {
             background-color: tomato;
+            /* align-self: stretch; */
         }
 
         .item-4 {
