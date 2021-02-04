@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <input type="number" name="" id="otp" placeholder="Enter OTP">
+        <select name="" id="category">
+            <option value="">Select Category</option>
+            <option>Jeans</option>
+            <option>T-shirt</option>
+            <option>Track</option>
+        </select>
+
+        <button type="button" onclick="checkMyOTP(this)">VERIFY</button>
+    </form>
+    <script>
+        function checkMyOTP(arg) {
+            otp = document.getElementById('otp').value;
+            category = document.getElementById('category').value;
+            if (otp == '') {
+                // true
+                alert('Please enter OTP');
+            }
+            if (category == '') {
+                alert('Please select category');
+            }
+        }
+    </script>
+</body>
+
+</html>
