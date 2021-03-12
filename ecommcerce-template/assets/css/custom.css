@@ -1,0 +1,11 @@
+.bg-info {
+    background-color: #1566f3 !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(180, 180, 180);
+}
